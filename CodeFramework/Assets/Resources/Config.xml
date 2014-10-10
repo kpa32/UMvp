@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<configuration>
+  <appSettings>
+    <!--游戏配置文件目录-->
+    <add key="ConfigPath" value="Config/"/>
+
+    <!--游戏UI资源目录-->
+    <add key="UIPath" value="UI/"/>
+
+    <!--游戏UI显示根目录-->
+    <add key="UIRoot" value="UI Root/Camera/Root"/>
+
+    <add key="Host" value="127.0.0.1"/>
+
+    <add key="Port" value="2012"/>
+  </appSettings>
+
+</configuration>
