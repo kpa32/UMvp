@@ -1,6 +1,8 @@
 Base path: D:/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-1-2444
+Pipe name: \\.\pipe\UnityShaderCompiler-1-4896
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=219 outsize=219 ok=1
 Cmd: preprocess
   insize=2317 outsize=849 ok=1
 Cmd: preprocess
@@ -9,6 +11,8 @@ Cmd: preprocess
   insize=2330 outsize=479 ok=1
 Cmd: preprocess
   insize=1964 outsize=478 ok=1
+Cmd: preprocess
+  insize=480 outsize=480 ok=1
 Cmd: preprocess
   insize=2810 outsize=895 ok=1
 Cmd: preprocess
@@ -22,14 +26,52 @@ Cmd: preprocess
 Cmd: preprocess
   insize=1428 outsize=478 ok=1
 Cmd: preprocess
+  insize=3042 outsize=1804 ok=1
+Cmd: preprocess
   insize=1784 outsize=847 ok=1
 Cmd: preprocess
   insize=2474 outsize=494 ok=1
 Cmd: preprocess
+  insize=435 outsize=435 ok=1
+Cmd: preprocess
   insize=1436 outsize=840 ok=1
 Cmd: preprocess
+  insize=5978 outsize=3431 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7082 outsize=4573 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7082 outsize=3752 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4814 outsize=4223 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4814 outsize=4077 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6012 outsize=4126 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6012 outsize=3265 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3811 outsize=3777 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3811 outsize=3590 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5336 outsize=3240 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5336 outsize=1859 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2853 outsize=3200 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2853 outsize=2217 kw=POINT ok=1
+Cmd: preprocess
   insize=1464 outsize=884 ok=1
+Cmd: preprocess
+  insize=2361 outsize=2258 ok=1
 Cmd: preprocess
   insize=1232 outsize=482 ok=1
 Cmd: preprocess
   insize=2107 outsize=492 ok=1
+Cmd: preprocess
+  insize=1668 outsize=929 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4814 outsize=3443 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4814 outsize=3606 kw=DIRECTIONAL ok=1

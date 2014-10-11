@@ -13,7 +13,8 @@ namespace Game
         /// <returns></returns>
         public string GetInputValue()
         {
-            return F<UIInput>("Account").value;
+            //return F<UIInput>("Account").value;
+return "";
         }
 
         /// <summary>

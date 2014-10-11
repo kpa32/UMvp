@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿//#define NGUI_3
+using UnityEngine;
 using System.Collections.Generic;
 
 namespace Game
@@ -58,7 +59,13 @@ namespace Game
             obj.transform.localRotation = Quaternion.identity;
             obj.transform.localScale = Vector3.one;
             obj.name = path.Name;
+#if NGUI_3
             obj.GetComponent<UIPanel>().depth = path.Depth;
+#else
+            Vector3 zbuffer=obj.transform.localPosition;
+            zbuffer.z = path.Depth;
+            obj.transform.localPosition = zbuffer;
+#endif
             return obj;
         }
 
