@@ -21,12 +21,12 @@ namespace Game
 
         public override void Load()
         {
-            UIManager.OpenUI(UIName.Login);   
+            UIManager.OpenUI(UIName.Demo);   
         }
 
         public override void Exit()
         {
-            UIManager.CloseUI(UIName.Login); 
+            UIManager.CloseUI(UIName.Demo); 
         }
     }
 }

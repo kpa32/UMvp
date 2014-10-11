@@ -1,0 +1,4 @@
+<Root>
+  <UI Name="Message" Depth="10" Path="Common/Message" Position="0,0,0"/>
+  <UI Name="Demo" Depth="1" Path="Demo1" Position="0,0,0"/>
+</Root>

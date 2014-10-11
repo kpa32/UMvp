@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UMvp.Core;
 
 namespace Game
 {
@@ -27,7 +28,7 @@ namespace Game
             {
                 UIManager.OpenGlobalUI(UIName.Message);
             }
-            //Gate.instance.sendNotification(MsgConst.Message_Push, message);
+            G.Send(MessagePresenter.MSG, message);
         }
     }
 
