@@ -40,11 +40,13 @@ namespace UMvp.Core
         }
         public static void Send(string messageId,object body)
         {
-            foreach (var p in Instance._presenterMap.Values)
+            Dictionary<string, IPresenter> _map = Instance._presenterMap;
+            
+            foreach (var key in new List<string>(_map.Keys))
             {
-                if (p.Methods.ContainsKey(messageId))
+                if (_map[key].Methods.ContainsKey(messageId))
                 {
-                    p.Methods[messageId](body);
+                    _map[key].Methods[messageId](body);
                 }
             }
         }
