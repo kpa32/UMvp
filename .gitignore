@@ -41,4 +41,12 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+CodeFramework/Temp
+CodeFramework/obj
+CodeFramework\Library\metadata
+CodeFramework\Library\ScriptAssemblies
+CodeFramework\Library\ShaderCache
+CodeFramework\Library\FailedAssetImports.txt
+CodeFramework\Library\ShaderCache.db
+CodeFramework\Library\shadercompiler-1.log
 
